@@ -1,9 +1,14 @@
-import Image from "next/image";
+import Hero from "./components/landing-page/hero";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center">
-      <h1>Hello world!</h1>
+    <div className="max-w-7xl mx-auto">
+      <Hero/>
+      {/* <Header/>
+      
+      <VideoExplanation/>
+      <Pricing/>
+      <FAQ/> */}
     </div>
   );
 }
